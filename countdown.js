@@ -15,17 +15,17 @@ $(document).ready(function() {
             var minutes = Math.floor(t%(1000*60*60) / (1000*60));
             var seconds = Math.floor(t%(1000*60) / (1000));
 
-            datadays.html(days < 10 ? '0'+days:days).append('<span class="label">Days</span>');
-            datahours.html(hours < 10 ? '0'+hours:hours).append('<span class="label">Hours</span>');
-            dataminutes.html(minutes < 10 ? '0'+minutes:minutes).append('<span class="label">Minutes</span>');
-            dataseconds.html(seconds < 10 ? '0'+seconds:seconds).append('<span class="label">Seconds</span>');
+            datadays.html(days < 10 ? '0'+days:days).append('<span class="label">D</span>');
+            datahours.html(hours < 10 ? '0'+hours:hours).append('<span class="label">H</span>');
+            dataminutes.html(minutes < 10 ? '0'+minutes:minutes).append('<span class="label">M</span>');
+            dataseconds.html(seconds < 10 ? '0'+seconds:seconds).append('<span class="label">S</span>');
 
             if(t <= 0){
                 clearInterval(x);
-                datadays.html('0').append('<span class="label">Days</span>');
-                datahours.html('0').append('<span class="label">Hours</span>');
-                dataminutes.html('0').append('<span class="label">Minutes</span>');
-                dataseconds.html('0').append('<span class="label">Seconds</span>');
+                datadays.html('0').append('<span class="label">D</span>');
+                datahours.html('0').append('<span class="label">H</span>');
+                dataminutes.html('0').append('<span class="label">M</span>');
+                dataseconds.html('0').append('<span class="label">S</span>');
             }
         },1000);
     });
