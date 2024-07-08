@@ -452,12 +452,18 @@
         </section>
 
         <section class="rsvp" id="rsvp">
+            <div id="google-form-container"></div>
+            <script>
+                // Call the function to embed the form
+                embedGoogleForm('https://docs.google.com/forms/d/e/1FAIpQLSfD4I2g4kJpVtMDJwRr9S6EZFpx8hZrj5TYGVPhjPSzKl0nHA/viewform?embedded=true', 'google-form-container');
+            </script>
+        </section>
+
+<!--         <section class="rsvp" id="rsvp">
             <div class="content">
                 <h2 class="text-center" data-aos="fade-up" data-aos-duration="1000">RSVP</h2>
                 <p class="mb-4 mt-4">Please kindly let us know by <b>April 14, 2025</b> if you will be attending.
                 Either email kgwedding (at) gmail.com with following info or fill out this form.</p>
-<!--                 <p>Please kindly let us know by <b>April 14, 2025</b> if you will be attending.</p>
-                <p>Either email kgwedding (at) gmail.com with following info or fill out this form.</p> -->
                 <div class="form_message mt-6" data-aos="fade-up" data-aos-duration="1500">
                     <form id="form_message" action="">
                         <input type="hidden" id="invitation_code" name="invitation_code" value="872g3flu">
@@ -487,11 +493,6 @@
                         <button type="button" id="btn_message" class="mb-4">Send<img
                                 src="https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/icon/send-blue.png"
                                 alt=""></button>
-<!--                         <button style="background: #394859;color:#fff;" type="button" id="btn_send_gift">
-                            Kado <img
-                                src="https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/icon/gift-white.png"
-                                alt="" style="width: 20px!important;">
-                        </button> -->
                         <br><br>
                         <p style="line-height: 25px;">Looking forward to celebrating with you!</p>
                         <p class="mb-4 mt-4">Best,</p>
@@ -521,27 +522,8 @@
                         <li>Kel. Emily Johnson, S.Farm., M.Farm.&nbsp;</li>
                     </ol>
                 </div> -->
-<!--                 <div class="message_guest" data-aos="fade-up" data-aos-duration="1000">
-                    <p class="mb-4">Doa & Ucapan dari undangan</p>
-                    <ul id="message_list" style="list-style: none;">
-                        <li>
-                            <span class="from">Elizabeth Bennet dan Darcy</span>
-                            <span class="guest_message">Sejatinya pernikahan adalah lembaran baru kehidupan,
-                                kebahagiaan, kebersamaan, dan hal-hal baik lainnya yang menyertai.</span>
-                        </li>
-                        <li>
-                            <span class="from">Edward &amp; Bella</span>
-                            <span class="guest_message">Mantap!! Selamat berbahagia menjalani bahtera rumah tangga yang
-                                baru.</span>
-                        </li>
-                        <li>
-                            <span class="from">Cinta &amp; Rangga</span>
-                            <span class="guest_message">Yeay!! Selamat ya, akhirnya kalian nikah juga :p</span>
-                        </li>
-                    </ul>
-                </div> -->
-            </div>
-        </section>
+<!--             </div>
+        </section> --> -->
 
         <section id="footer">
             <footer>
@@ -621,6 +603,7 @@
     <script src="falling-flower.js"></script>
     <script src="splide.min.js"></script>
     <script src="alertify.min.js"></script>
+    <script src="embedForm.js"></script>
     <script src="./rsvp.js"></script>
 </body>
 
