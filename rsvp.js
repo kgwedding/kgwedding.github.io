@@ -1,17 +1,17 @@
-function ambilNamaDariURL() {
+function takeNameForURL() {
     const urlParams = new URLSearchParams(window.location.search);
-    const nama = urlParams.get("untuk");
-    return nama;
+    const name = urlParams.get("untuk");
+    return name;
 }
 
-function gantiTeks() {
-    const nama = ambilNamaDariURL();
-    if (nama) {
-        document.getElementById("nama").textContent = nama;
+function changeText() {
+    const name = takeNameForURL();
+    if (name) {
+        document.getElementById("name").textContent = name;
     }
 }
 
-window.addEventListener("load", gantiTeks);
+window.addEventListener("load", changeText);
 
 lightbox.option({
     'resizeDuration': 200,
@@ -29,8 +29,8 @@ document.addEventListener('DOMContentLoaded', function () {
             var len = data.length;
             for (var i = 0; i < len; i++) {
                 $("#message_list").prepend('<li>\n' +
-                    '                        <span class="from">' + data[i].nama + '</span>\n' +
-                    '                        <span class="guest_message">' + data[i].pesan + '</span>\n' +
+                    '                        <span class="from">' + data[i].name + '</span>\n' +
+                    '                        <span class="guest_message">' + data[i].message + '</span>\n' +
                     '                    </li>');
             }
         }
@@ -61,13 +61,13 @@ $(document).ready(function () {
     $("#btn_message").on("click", function (e) {
         e.preventDefault();
         if ($("#guest_name").val() === '') {
-            return alert('Nama Harus Diisi')
+            return alert('Name is Required')
         }
-        if ($("#message").val() === '') {
-            return alert('Pesan Harus Diisi');
-        }
+        // if ($("#message").val() === '') {
+        //     return alert('Pesan Harus Diisi');
+        // }
         if ($("#guest_name").val() !== '' && $("#message").val() !== '') {
-            $(this).html('Mengirim Pesan...');
+            $(this).html('Sending...');
             var btn = $(this);
             btn.attr("disabled", "disabled");
             setTimeout(function () {
@@ -80,12 +80,12 @@ $(document).ready(function () {
         event.preventDefault();
         var btn = $("#btn_message");
         if (true) {
-            btn.html('<small>Terima kasih atas doa dan ucapannya</small>');
+            btn.html('<small>Thank you!</small>');
             setTimeout(function () {
-                btn.html('Kirim');
+                btn.html('Send');
             }, 3000);
             var http = new XMLHttpRequest();
-            http.open("GET", "https://mycloud.devazy.iotflows.com/button?nama=" + $('#guest_name').val() + "&pesan=" + $('#message').val(), true);
+            http.open("GET", "https://mycloud.devazy.iotflows.com/button?name=" + $('#guest_name').val() + "&message=" + $('#message').val(), true);
             http.send();
             $("#message_list").prepend('<li>\n' +
                 '                        <span class="from">' + $('#guest_name').val() + '</span>\n' +
@@ -102,7 +102,7 @@ $(document).ready(function () {
 function alert(msg) {
     alertify.alert().set(
         {
-            title: 'Informasi',
+            title: 'Information',
             transition: 'slide',
             message: msg,
             movable: true,
