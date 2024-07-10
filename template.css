@@ -860,7 +860,8 @@ section.modal-send-gift .content::-webkit-scrollbar {
 section.modal-send-gift h3 {
   font-size: 1.3rem;
   font-family: sans-serif;
-  color: #607c8a;
+  color: #41543d;
+/*     #607c8a; */
 }
 section.modal-send-gift ul {
   list-style: none;
@@ -884,7 +885,8 @@ section.modal-send-gift ul li .item .value {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #617c8a;
+  color: #41543d;
+/*     #617c8a; */
 }
 section.modal-send-gift ul li .item .value.account-number {
   font-size: 1.3rem !important;
@@ -897,7 +899,8 @@ section.modal-send-gift ul li .item .value input {
   margin-right: 5px;
   width: 100%;
   border-radius: 5px;
-  color: #617c8a;
+  color: #41543d;
+/*   #617c8a; */
 }
 section.modal-send-gift ul li .item .value a.copy {
   background: #607c8a;
@@ -917,7 +920,8 @@ section.modal-send-gift ul li .item .value a.copy {
   cursor: pointer;
 }
 .splide__pagination__page.is-active {
-  background-color: #a2a2a2;
+  background-color: #41543d;
+/*   #a2a2a2; */
 }
 
 .splide__arrow--prev {
@@ -1035,7 +1039,8 @@ section.modal-send-gift ul li .item .value a.copy {
   display: block;
   font-size: 0.9rem;
   line-height: 20px;
-  color: #617c8a;
+  color: #41543d;
+/*     #617c8a; */
 }
 .list-gift-product li .info .product-price {
   display: block;
@@ -1060,7 +1065,8 @@ section.modal-send-gift ul li .item .value a.copy {
   font-size: 0.9rem;
   width: 100%;
   border-radius: 5px;
-  background: #607c8a;
+  background: #41543d;
+/*     #607c8a; */
   color: #fff;
 }
 .list-gift-product li .product-action a:hover {
@@ -1427,7 +1433,7 @@ input[type=text]:disabled {
 
 section.index {
   position: relative;
-  background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/bg-flower.png"), rgba(93, 112, 139, 0.73) center;
+  background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/bg-flower.png"), rgba(65, 84, 61, 0.78) center;
   background-size: cover;
   min-height: 600px;
   height: 100vh;
@@ -1507,7 +1513,8 @@ section.index .frame div .card h5 {
 }
 section.index .frame div a {
   padding: 10px 30px;
-  background-color: #394859;
+  background-color: #41543d;
+/*     #394859; */
   color: #fff;
   text-align: center;
   text-decoration: none;
@@ -1544,7 +1551,8 @@ section.cover .count_down div.item {
   height: 50px;
   border: 1px solid #ffffff;
   border-radius: 5px;
-  color: #5d708b;
+  color: #738c6d;
+/*     #5d708b; */
   padding: 7px 0;
   text-align: center;
   background: #ffffff;
@@ -1631,9 +1639,9 @@ section.cover .overlay {
   height: 100%;
   top: 0;
   left: 0;
-  background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/bg-flower.png"), rgba(93, 112, 139, 0.73) center;
+  background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/bg-flower.png"), rgba(65, 84, 61, 0.73) center;
   background-size: cover;
-  background-color: rgba(93, 112, 139, 0.73);
+  background-color: rgba(65, 84, 61, 0.73);
 }
 
 section.bridegroom {
@@ -1726,7 +1734,7 @@ section.bridegroom .overlay {
 section.event {
   text-align: center;
   position: relative;
-  background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/bg-flower.png"), #707d90 center;
+  background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/bg-flower.png"), #738c6d center;
   background-size: cover;
   min-height: 650px;
   color: #ffffff;
@@ -1769,7 +1777,8 @@ section.event .content .item .detail {
   height: 100%;
   padding: 45px 15px 60px 15px;
   background: rgba(255, 255, 255, 0.7);
-  color: #5d708b;
+  color: #738c6d;
+/*     #5d708b; */
   border-radius: 20px;
 }
 section.event .content .item .detail h3 {
@@ -1805,7 +1814,7 @@ section.story .content .list-stories .item {
   width: 300px;
   height: 300px;
   position: relative;
-  color: #5d708b;
+  color: #738c6d;
   background: #ffffff;
   border-radius: 50%;
   text-align: center;
@@ -2115,7 +2124,7 @@ section.rsvp .content .form_message button {
   text-transform: uppercase;
   border-radius: 5px;
   background: #eeeeee;
-  color: #606b77;
+  color: #41543d;
   outline: none;
   border-color: transparent;
   box-shadow: none;
@@ -2160,7 +2169,7 @@ section.rsvp .content .form_message input[type=radio]:checked:after {
   top: -2px;
   left: -1px;
   position: relative;
-  background-color: #607d8b;
+  background-color: #738c6d;
   content: "";
   display: inline-block;
   visibility: visible;
@@ -2190,7 +2199,7 @@ section.rsvp .message_guest ul li {
   margin-bottom: 10px;
   padding: 15px;
   border-radius: 10px;
-  background: rgba(93, 112, 139, 0.7411764706);
+  background: rgba(65, 84, 61, 0.7411764706);
   color: #ffffff;
 }
 section.rsvp .message_guest ul li span.guest_message {
@@ -2251,7 +2260,7 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
 }
 .row .menu .sidebar ul li:not(last-child) a {
   text-decoration: none;
-  color: #607d8b;
+  color: #738c6d;
 }
 .row .content {
   width: calc(100% - 250px);
@@ -2264,7 +2273,7 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
   bottom: 45px;
   z-index: 99;
   border-radius: 30px;
-  background: rgb(93, 112, 139);
+  background: rgb(115, 140, 109);
   color: #fff;
   left: 40px;
   display: flex;
@@ -2386,7 +2395,7 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
     width: 300px;
     height: 300px;
     position: relative;
-    color: #5d708b;
+    color: #738c6d;
     background: #ffffff;
     border-radius: 50%;
     text-align: center;
