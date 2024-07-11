@@ -1737,7 +1737,8 @@ section.bridegroom .overlay {
 section.event {
   text-align: center;
   position: relative;
-  background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/bg-flower.png"), #738c6d center;
+/*   background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/bg-flower.png"), #738c6d center; */
+  background: url("assets/img/BlueRidgeMtns.jpg"), #738c6d center;
   background-size: cover;
   min-height: 650px;
   color: #ffffff;
@@ -1767,7 +1768,8 @@ section.event .content .item:after {
   bottom: -33px;
   left: 50%;
   transform: translate(-50%);
-  background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/event-flower.png") no-repeat center;
+/*   background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/event-flower.png") no-repeat center; */
+  background: url("assets/img/pink-flower.png") no-repeat center;
   background-size: 100%;
   pointer-events: none;
 }
@@ -1833,7 +1835,7 @@ section.story .content .list-stories .item:before {
   top: 2px;
   right: -62px;
   transform: translate(-50%);
-  background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/story-flower-3.png") no-repeat center;
+  background: url("assets/img/pink-flower.png") no-repeat center;
   background-size: 90px;
 }
 section.story .content .list-stories .item:after {
@@ -1844,7 +1846,7 @@ section.story .content .list-stories .item:after {
   bottom: -30px;
   left: 54px;
   transform: translate(-50%);
-  background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/story-flower-4.png") no-repeat center;
+  background: url("assets/img/pink-flower.png") no-repeat center;
   background-size: 90px;
   z-index: -1;
 }
@@ -1889,7 +1891,7 @@ section.story .content .list-stories-new div .item .detail:before {
   bottom: 0;
   left: 22px;
   transform: translate(-50%);
-  background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/story-flower-4.png") no-repeat center;
+  background: url("assets/img/pink-flower.png") no-repeat center;
   background-size: 90px;
   z-index: -1;
 }
@@ -1901,7 +1903,7 @@ section.story .content .list-stories-new div .item .detail:after {
   top: 2px;
   right: -62px;
   transform: translate(-50%);
-  background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/story-flower-3.png") no-repeat center;
+  background: url("assets/img/pink-flower.png") no-repeat center;
   background-size: 90px;
   z-index: 1;
 }
@@ -1937,7 +1939,7 @@ section.story .content .splide__list .splide__slide .detail:before {
   bottom: 0;
   left: 22px;
   transform: translate(-50%);
-  background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/story-flower-4.png") no-repeat center;
+  background: url("assets/img/pink-flower.png") no-repeat center;
   background-size: 90px;
   z-index: -1;
 }
@@ -1949,7 +1951,7 @@ section.story .content .splide__list .splide__slide .detail:after {
   top: 2px;
   right: -62px;
   transform: translate(-50%);
-  background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/story-flower-3.png") no-repeat center;
+  background: url("assets/img/pink-flower.png") no-repeat center;
   background-size: 90px;
   z-index: 1;
 }
@@ -2031,7 +2033,7 @@ section.galery .top-left {
   z-index: -1;
   width: 187px;
   height: 230px;
-  background-image: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/gallery-flower-3.png");
+  background-image: url("assets/img/eucalyptus-branch.jpeg");
   background-size: contain;
   background-repeat: no-repeat;
   pointer-events: none;
@@ -2043,7 +2045,7 @@ section.galery .top-right {
   z-index: -1;
   width: 187px;
   height: 230px;
-  background-image: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/gallery-flower-3.png");
+  background-image: url("assets/img/eucalyptus-branch.jpeg");
   background-size: contain;
   background-repeat: no-repeat;
   pointer-events: none;
@@ -2051,7 +2053,7 @@ section.galery .top-right {
 }
 
 section.rsvp {
-  background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/bg-flower.png"), rgba(93, 112, 139, 0.73) center;
+  background: url("assets/img/BlueRidgeMtns.jpg"), rgba(93, 112, 139, 0.73) center;
   background-size: contain;
   min-height: 650px;
   font-family: "Dancing Script", cursive;
@@ -2307,7 +2309,7 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
   top: -35px;
   left: 30px;
   transform: translate(-50%);
-  background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/story-flower-3.png") no-repeat center;
+  background: url("assets/img/pink-flower.png") no-repeat center;
   background-size: 90px;
   z-index: 1;
 }
@@ -2414,7 +2416,7 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
     top: 2px;
     right: -62px;
     transform: translate(-50%);
-    background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/story-flower-3.png") no-repeat center;
+    background: url("assets/img/pink-flower.png") no-repeat center;
     background-size: 90px;
   }
   section.story .content .list-stories .item:after {
@@ -2425,7 +2427,7 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
     bottom: -30px;
     left: 54px;
     transform: translate(-50%);
-    background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/story-flower-4.png") no-repeat center;
+    background: url("assets/img/pink-flower.png") no-repeat center;
     background-size: 90px;
     z-index: -1;
   }
@@ -2470,7 +2472,7 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
     bottom: 0;
     left: 22px;
     transform: translate(-50%);
-    background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/story-flower-4.png") no-repeat center;
+    background: url("assets/img/pink-flower.png") no-repeat center;
     background-size: 90px;
     z-index: -1;
   }
@@ -2482,7 +2484,7 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
     top: 2px;
     right: -62px;
     transform: translate(-50%);
-    background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/story-flower-3.png") no-repeat center;
+    background: url("assets/img/pink-flower.png") no-repeat center;
     background-size: 90px;
     z-index: 1;
   }
@@ -2519,7 +2521,7 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
     bottom: 0;
     left: 22px;
     transform: translate(-50%);
-    background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/story-flower-4.png") no-repeat center;
+    background: url("assets/img/pink-flower.png") no-repeat center;
     background-size: 90px;
     z-index: -1;
   }
@@ -2531,7 +2533,7 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
     top: 2px;
     right: -62px;
     transform: translate(-50%);
-    background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/story-flower-3.png") no-repeat center;
+    background: url("assets/img/pink-flower.png") no-repeat center;
     background-size: 90px;
     z-index: 1;
   }
@@ -2703,7 +2705,7 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
   width: 20px;
   height: 20px;
   position: absolute;
-  background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/particle.png");
+  background: url("assets/img/pink-flower.png");
   background-size: 100% 100%;
   z-index: 3;
   opacity: 0.7;
@@ -2713,7 +2715,7 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
   width: 20px;
   height: 20px;
   position: absolute;
-  background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/particle.png");
+  background: url("assets/img/pink-flower.png");
   background-size: 100% 100%;
   z-index: 3;
   opacity: 0.7;
