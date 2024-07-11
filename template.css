@@ -1419,6 +1419,7 @@ textarea {
 
 .shadow {
   box-shadow: 2px 2px 11px 3px rgba(183, 183, 183, 0.25);
+/*   box-shadow: 2px 2px 11px 3px rgba(183, 183, 183, 0.25); */
 }
 
 .toastify {
@@ -1582,7 +1583,8 @@ section.cover .frame {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(240, 248, 255, 0.2392156863);
+/*   background: rgba(240, 248, 255, 0.2392156863); */
+  background: rgba(240, 248, 255, 0.6);
 }
 section.cover .frame .detail {
   z-index: 9999;
