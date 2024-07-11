@@ -2320,7 +2320,8 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
   top: -35px;
   left: 30px;
   transform: translate(-50%);
-  background: url("assets/img/pink-flower.png") no-repeat center;
+/*   background: url("assets/img/pink-flower.png") no-repeat center; */
+  background: url("assets/img/leaf.png") no-repeat center;
   background-size: 90px;
   z-index: 1;
 }
@@ -2427,7 +2428,7 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
     top: 2px;
     right: -62px;
     transform: translate(-50%);
-    background: url("assets/img/pink-flower.png") no-repeat center;
+    background: url("assets/img/leaf.png") no-repeat center;
     background-size: 90px;
   }
   section.story .content .list-stories .item:after {
@@ -2438,7 +2439,8 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
     bottom: -30px;
     left: 54px;
     transform: translate(-50%);
-    background: url("assets/img/pink-flower.png") no-repeat center;
+/*     background: url("assets/img/pink-flower.png") no-repeat center; */
+    background: url("assets/img/leaf.png") no-repeat center;
     background-size: 90px;
     z-index: -1;
   }
@@ -2483,7 +2485,8 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
     bottom: 0;
     left: 22px;
     transform: translate(-50%);
-    background: url("assets/img/pink-flower.png") no-repeat center;
+/*     background: url("assets/img/pink-flower.png") no-repeat center; */
+    background: url("assets/img/leaf.png") no-repeat center;
     background-size: 90px;
     z-index: -1;
   }
@@ -2495,7 +2498,7 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
     top: 2px;
     right: -62px;
     transform: translate(-50%);
-    background: url("assets/img/pink-flower.png") no-repeat center;
+    background: url("assets/img/leaf.png") no-repeat center;
     background-size: 90px;
     z-index: 1;
   }
@@ -2532,7 +2535,7 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
     bottom: 0;
     left: 22px;
     transform: translate(-50%);
-    background: url("assets/img/pink-flower.png") no-repeat center;
+    background: url("assets/img/leaf.png") no-repeat center;
     background-size: 90px;
     z-index: -1;
   }
@@ -2544,7 +2547,7 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
     top: 2px;
     right: -62px;
     transform: translate(-50%);
-    background: url("assets/img/pink-flower.png") no-repeat center;
+    background: url("assets/img/leaf.png") no-repeat center;
     background-size: 90px;
     z-index: 1;
   }
@@ -2716,7 +2719,7 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
   width: 20px;
   height: 20px;
   position: absolute;
-  background: url("assets/img/pink-flower.png");
+  background: url("assets/img/leaf.png");
   background-size: 100% 100%;
   z-index: 3;
   opacity: 0.7;
@@ -2726,7 +2729,7 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
   width: 20px;
   height: 20px;
   position: absolute;
-  background: url("assets/img/pink-flower.png");
+  background: url("assets/img/leaf.png");
   background-size: 100% 100%;
   z-index: 3;
   opacity: 0.7;
