@@ -1433,7 +1433,8 @@ input[type=text]:disabled {
 
 section.index {
   position: relative;
-  background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/bg-flower.png"), rgba(65, 84, 61, 0.78) center;
+/*   background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/bg-flower.png"), rgba(65, 84, 61, 0.78) center; */
+  background: url("assets/img/BlueRidgeMtns.jpg"), rgba(65, 84, 61, 0.78) center; 
   background-size: cover;
   min-height: 600px;
   height: 100vh;
@@ -1639,7 +1640,7 @@ section.cover .overlay {
   height: 100%;
   top: 0;
   left: 0;
-  background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/bg-flower.png"), rgba(65, 84, 61, 0.73) center;
+  background: url("assets/img/BlueRidgeMtns.jpg"), rgba(65, 84, 61, 0.73) center;
   background-size: cover;
   background-color: rgba(65, 84, 61, 0.73);
 }
@@ -1683,7 +1684,8 @@ section.bridegroom .content .row .col .image-bride .bg-flower {
   top: -29px;
   left: -33px;
   position: absolute;
-  background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/bride-flower-1.png") no-repeat top;
+/*   background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/bride-flower-1.png") no-repeat top; */
+  background: url("assets/img/flower-wreath.jpeg") no-repeat top;
   background-size: cover;
   z-index: -1;
 }
@@ -1697,7 +1699,8 @@ section.bridegroom .content .row .col .flower {
   right: 20px;
   width: 100px;
   height: 200px;
-  background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/bride-flower-2.png") no-repeat center;
+/*   background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/bride-flower-2.png") no-repeat center; */
+  background: url("assets/img/eucalyptus-branch.jpeg") no-repeat center;
   background-size: contain;
 }
 section.bridegroom .content .row .col .flower.groom {
