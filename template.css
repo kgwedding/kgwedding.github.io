@@ -1434,7 +1434,7 @@ input[type=text]:disabled {
 section.index {
   position: relative;
 /*   background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/bg-flower.png"), rgba(65, 84, 61, 0.78) center; */
-  background: url("assets/img/BlueRidgeMtns.jpg"), rgba(65, 84, 61, 0.78) center; 
+  background: url("assets/img/mountains-sunset.jpg"), rgba(65, 84, 61, 0.78) center; 
   background-size: cover;
   min-height: 600px;
   height: 100vh;
@@ -1640,7 +1640,7 @@ section.cover .overlay {
   height: 100%;
   top: 0;
   left: 0;
-  background: url("assets/img/BlueRidgeMtns.jpg"), rgba(65, 84, 61, 0.73) center;
+  background: url("assets/img/mountains-sunset.jpg"), rgba(65, 84, 61, 0.73) center;
   background-size: cover;
   background-color: rgba(65, 84, 61, 0.73);
 }
@@ -1738,7 +1738,7 @@ section.event {
   text-align: center;
   position: relative;
 /*   background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/bg-flower.png"), #738c6d center; */
-  background: url("assets/img/BlueRidgeMtns.jpg"), #738c6d center;
+  background: url("assets/img/mountains-sunset.jpg"), #738c6d center;
   background-size: cover;
   min-height: 650px;
   color: #ffffff;
@@ -2053,7 +2053,7 @@ section.galery .top-right {
 }
 
 section.rsvp {
-  background: url("assets/img/BlueRidgeMtns.jpg"), rgba(93, 112, 139, 0.73) center;
+  background: url("assets/img/mountains-sunset.jpg"), rgba(93, 112, 139, 0.73) center;
   background-size: contain;
   min-height: 650px;
   font-family: "Dancing Script", cursive;
