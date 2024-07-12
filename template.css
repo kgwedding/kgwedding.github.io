@@ -1742,8 +1742,8 @@ section.event {
   text-align: center;
   position: relative;
 /*   background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/bg-flower.png"), #738c6d center; */
-/*   background: url("assets/img/trees-fireflies.webp"), #738c6d center; */
-  background: url("assets/img/trees-fireflies.webp"), #171f15 center;
+  background: url("assets/img/trees-fireflies.webp"), #738c6d center;
+/*   background: url("assets/img/trees-fireflies.webp"), #171f15 center; */
   background-size: cover;
   min-height: 650px;
   color: #ffffff;
