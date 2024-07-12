@@ -2833,6 +2833,7 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
     border: 0;
 }
 
+/* Existing section.story CSS */
 section.story {
   background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/paper-1.png") no-repeat center, url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/bg2.svg") center;
   background-size: cover, 100px;
@@ -2980,4 +2981,98 @@ section.story .content .splide__list::-webkit-scrollbar {
   }
 }
 
-
+/* Navigation and other elements media queries */
+@media (min-width: 320px) and (max-width: 480px) {
+  .nav {
+    position: fixed;
+    bottom: 10px;
+    right: auto;
+    top: auto;
+    transform: translate(-50%);
+    z-index: 99;
+    width: 100%;
+  }
+  .nav.ver2 {
+    right: auto;
+  }
+  .nav ul {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 90%;
+    flex-direction: row;
+  }
+  .nav ul li:not(:last-child) {
+    margin-right: 15px;
+  }
+  .nav ul li img {
+    width: 50px;
+    height: 50px;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  .btn-send-gift {
+    bottom: 105px;
+    left: 50% !important;
+    transform: translate(-50%);
+  }
+  .row {
+    flex-direction: column;
+  }
+  .row .col {
+    width: 100%;
+    margin: auto;
+  }
+  .demo-top-notif {
+    padding: 0 10px;
+  }
+  .modal-content {
+    width: 90% !important;
+  }
+  .modal-content .body {
+    position: relative;
+    max-height: 600px !important;
+    overflow-y: auto;
+  }
+  .splide__list {
+    margin-left: 0px !important;
+  }
+  #audio_control {
+    top: unset;
+    left: 20px;
+    right: unset;
+    bottom: 100px;
+  }
+  .list-gift-product li {
+    width: calc(50% - 2px);
+    margin-bottom: 7px;
+  }
+  .list-gift-product li .info {
+    padding: 5px 10px 0 5px;
+  }
+  .list-gift-product li.add-item {
+    padding: 3px;
+    position: relative;
+    min-height: 65px;
+    width: 100%;
+    background-size: cover;
+  }
+  .list-gift-product li.add-item a {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .demo-top-notif div {
+    font-size: 0.8rem;
+  }
+  .demo-top-notif a {
+    font-size: 0.8rem;
+  }
+  .list-gift-product li .info .product-title {
+    font-size: 0.8rem;
+  }
+  .list-gift-product li .info .product-price {
+    font-size: 0.75rem;
+  }
+}
