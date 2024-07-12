@@ -1689,7 +1689,7 @@ section.bridegroom .content .row .col .image-bride .bg-flower {
   left: -33px;
   position: absolute;
 /*   background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/bride-flower-1.png") no-repeat top; */
-  background: url("assets/img/flower-wreath_transparent.jpeg") no-repeat top;
+  background: url("assets/img/flower-wreath_transparent.png") no-repeat top;
   background-size: cover;
   z-index: -1;
 }
@@ -1704,7 +1704,7 @@ section.bridegroom .content .row .col .flower {
   width: 100px;
   height: 200px;
 /*   background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/bride-flower-2.png") no-repeat center; */
-  background: url("assets/img/eucalyptus-branch.jpeg") no-repeat center;
+  background: url("assets/img/eucalyptus-branch_transparent.png") no-repeat center;
   background-size: contain;
 }
 section.bridegroom .content .row .col .flower.groom {
