@@ -2815,3 +2815,21 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
     width: 100% !important;
   }
 }
+
+.responsive-iframe-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%;
+    overflow: hidden;
+}
+
+.responsive-iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
