@@ -2833,3 +2833,58 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
     border: 0;
 }
 
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  section.story .content {
+    padding: 50px 0 30px 0;
+  }
+  section.story .content h2 {
+    font-size: 2.5rem;
+  }
+  section.story .content .list-stories {
+    height: auto; /* Allow height to adjust based on content */
+  }
+  section.story .content .list-stories .item {
+    width: 250px;
+    height: 250px;
+  }
+  section.story .content .list-stories .item:before,
+  section.story .content .list-stories .item:after {
+    width: 80px;
+    height: 80px;
+    background-size: 70px;
+  }
+  section.story .content .list-stories .item .detail h5 {
+    font-size: 1.5rem;
+  }
+  section.story .content .list-stories .item .detail p {
+    font-size: 0.875rem;
+  }
+}
+
+/* Further adjustments for smaller screens */
+@media (max-width: 480px) {
+  section.story .content {
+    padding: 30px 0 20px 0;
+  }
+  section.story .content h2 {
+    font-size: 2rem;
+  }
+  section.story .content .list-stories .item {
+    width: 200px;
+    height: 200px;
+  }
+  section.story .content .list-stories .item:before,
+  section.story .content .list-stories .item:after {
+    width: 60px;
+    height: 60px;
+    background-size: 50px;
+  }
+  section.story .content .list-stories .item .detail h5 {
+    font-size: 1.25rem;
+  }
+  section.story .content .list-stories .item .detail p {
+    font-size: 0.75rem;
+  }
+}
+
