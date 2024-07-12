@@ -612,6 +612,28 @@
     <script src="alertify.min.js"></script>
     <script src="embedForm.js"></script>
     <script src="./rsvp.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var splide = new Splide('.splide', {
+        type   : 'slide',
+        perPage: 1,
+        perMove: 1,
+        autoplay: true,
+        breakpoints: {
+          768: {
+            perPage: 1,
+            perMove: 1,
+          },
+          480: {
+            perPage: 1,
+            perMove: 1,
+          },
+        },
+      });
+      splide.mount();
+    });
+    </script>
+
 </body>
 
 </html>
