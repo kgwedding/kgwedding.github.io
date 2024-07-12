@@ -2833,6 +2833,98 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
     border: 0;
 }
 
+section.story {
+  background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/paper-1.png") no-repeat center, url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/bg2.svg") center;
+  background-size: cover, 100px;
+  position: relative;
+  padding: 70px 0 50px 0;
+}
+section.story .content {
+  margin: auto;
+  padding: 70px 0 50px 0;
+}
+section.story .content h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 3.5rem;
+  font-weight: 100;
+  text-align: center;
+}
+section.story .content .list-stories-new {
+  margin: auto;
+  height: 400px;
+}
+section.story .content .splide__list {
+  display: flex;
+  list-style: none;
+  overflow: hidden;
+  overflow-x: auto;
+  justify-content: center;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+section.story .content .splide__list .splide__slide {
+  position: relative;
+  margin-right: 25px;
+}
+section.story .content .splide__list .splide__slide .detail {
+  width: 350px;
+  height: 350px;
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+section.story .content .splide__list .splide__slide .detail:before,
+section.story .content .splide__list .splide__slide .detail:after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url("assets/img/pink-flower_small.png") no-repeat center;
+  background-size: 90px;
+}
+section.story .content .splide__list .splide__slide .detail:before {
+  bottom: 0;
+  left: 22px;
+  transform: translate(-50%);
+  z-index: -1;
+}
+section.story .content .splide__list .splide__slide .detail:after {
+  top: 2px;
+  right: -62px;
+  transform: translate(-50%);
+  z-index: 1;
+}
+section.story .content .splide__list .splide__slide .detail .h-100 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section.story .content .splide__list .splide__slide .detail h5 {
+  font-size: 2rem;
+  font-family: "Dancing Script", cursive;
+  font-weight: 100;
+}
+section.story .content .splide__list .splide__slide .detail p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+}
+section.story .content .splide__list.pl {
+  padding-left: 20%;
+}
+section.story .content .splide__list.pl .splide__slide:last-child {
+  margin-right: 10%;
+}
+section.story .content .splide__list::-webkit-scrollbar {
+  display: none;
+}
+
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
   section.story .content {
@@ -2841,23 +2933,23 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
   section.story .content h2 {
     font-size: 2.5rem;
   }
-  section.story .content .list-stories {
+  section.story .content .list-stories-new {
     height: auto; /* Allow height to adjust based on content */
   }
-  section.story .content .list-stories .item {
-    width: 250px;
-    height: 250px;
+  section.story .content .splide__list .splide__slide .detail {
+    width: 300px;
+    height: 300px;
   }
-  section.story .content .list-stories .item:before,
-  section.story .content .list-stories .item:after {
+  section.story .content .splide__list .splide__slide .detail:before,
+  section.story .content .splide__list .splide__slide .detail:after {
     width: 80px;
     height: 80px;
     background-size: 70px;
   }
-  section.story .content .list-stories .item .detail h5 {
+  section.story .content .splide__list .splide__slide .detail h5 {
     font-size: 1.5rem;
   }
-  section.story .content .list-stories .item .detail p {
+  section.story .content .splide__list .splide__slide .detail p {
     font-size: 0.875rem;
   }
 }
@@ -2870,21 +2962,22 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
   section.story .content h2 {
     font-size: 2rem;
   }
-  section.story .content .list-stories .item {
-    width: 200px;
-    height: 200px;
+  section.story .content .splide__list .splide__slide .detail {
+    width: 250px;
+    height: 250px;
   }
-  section.story .content .list-stories .item:before,
-  section.story .content .list-stories .item:after {
+  section.story .content .splide__list .splide__slide .detail:before,
+  section.story .content .splide__list .splide__slide .detail:after {
     width: 60px;
     height: 60px;
     background-size: 50px;
   }
-  section.story .content .list-stories .item .detail h5 {
+  section.story .content .splide__list .splide__slide .detail h5 {
     font-size: 1.25rem;
   }
-  section.story .content .list-stories .item .detail p {
+  section.story .content .splide__list .splide__slide .detail p {
     font-size: 0.75rem;
   }
 }
+
 
