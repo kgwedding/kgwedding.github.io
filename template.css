@@ -1742,7 +1742,8 @@ section.event {
   text-align: center;
   position: relative;
 /*   background: url("https://s3.ap-southeast-1.amazonaws.com/cdn.kadio.id/images/kdo2/bg-flower.png"), #738c6d center; */
-  background: url("assets/img/trees-fireflies.webp"), #738c6d center;
+/*   background: url("assets/img/trees-fireflies.webp"), #738c6d center; */
+  background: url("assets/img/trees-fireflies.webp"), #171f15 center;
   background-size: cover;
   min-height: 650px;
   color: #ffffff;
@@ -1787,7 +1788,7 @@ section.event .content .item .detail {
   height: 100%;
   padding: 45px 15px 60px 15px;
   background: rgba(255, 255, 255, 0.7);
-  color: #738c6d;
+  color: #171f15
 /*     #5d708b; */
   border-radius: 20px;
 }
