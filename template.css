@@ -1920,38 +1920,62 @@ section.story .content .list-stories-new div .item .detail:after {
 section.story .content .list-stories-new::-webkit-scrollbar {
   display: none;
 }
-section.story .content .splide__list {
+/* section.story .content .splide__list {
   display: flex;
-  list-style: none;
+  list-style: none; */
 /*   overflow: hidden; */
-  overflow-x: auto;
+/*   overflow-x: auto;
   overflow-y: hidden;
   justify-content: flex-start;
   -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-}
+/*   scrollbar-width: none; /* Firefox */
+/* }
 section.story .content .splide__list .splide__slide {
   position: relative;
   margin-right: 25px;
   flex: 0 0 auto; /* Ensure slides don't shrink or grow */
-/*   margin-right: 15px; /* Space between slides */ */
-}
-section.story .content .splide__list .splide__slide .detail {
-/*   width: 350px;
+}  */
+/* section.story .content .splide__list .splide__slide .detail {
+  width: 350px;
   height: 350px;
   background: #ffffff;
   border-radius: 50%;
   padding: 2rem;
-  text-align: center; */
-  width: 80vw; /* 80% of the viewport width */
-  height: 80vw; /* Maintain the aspect ratio */
-  max-width: 350px; /* Ensure it doesn't exceed 350px */
-  max-height: 350px; /* Ensure it doesn't exceed 350px */
+  text-align: center;
+} */
+section.story .content .splide__list {
+  display: flex;
+  list-style: none;
+  overflow-x: auto;
+  overflow-y: hidden;
+  justify-content: center;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+section.story .content .splide__list .splide__slide {
+  flex: 0 0 auto;
+  margin-right: 25px;
+}
+
+section.story .content .splide__list .splide__slide .detail {
+  width: 350px;
+  height: 350px;
   background: #ffffff;
   border-radius: 50%;
   padding: 2rem;
   text-align: center;
 }
+
+@media (max-width: 600px) {
+  section.story .content .splide__list .splide__slide .detail {
+    width: 80vw;
+    height: 80vw;
+    padding: 1rem;
+  }
+}
+
+
 section.story .content .splide__list .splide__slide .detail:before {
   content: "";
   position: absolute;
