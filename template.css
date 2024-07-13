@@ -2443,7 +2443,7 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
   filter: brightness(5);
 }
 
-@media (max-width: 2400px) {
+@media (max-width: 800px) {
   section.story .content {
     margin: auto;
     padding: 70px 0px 50px 0px;
