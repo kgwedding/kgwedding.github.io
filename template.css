@@ -2556,7 +2556,7 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
   section.story .content .splide__list {
     display: flex;
     list-style: none;
-    overflow: hidden;
+    overflow-y: hidden;
     overflow-x: auto;
     justify-content: space-between;
     -ms-overflow-style: none; /* IE and Edge */
@@ -2735,7 +2735,8 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
     display: none;
   }
   .list-stories-new {
-    width: 100%;
+/*     width: 100%; */
+    width: 50%;
   }
   .turut-mengundang {
     width: 90%;
