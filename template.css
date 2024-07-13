@@ -2820,7 +2820,7 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
     position: relative;
     width: 100%;
     height: 0;
-    padding-bottom: 25%;
+    padding-bottom: 90%;
     overflow: hidden;
 }
 
