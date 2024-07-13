@@ -1931,8 +1931,10 @@ section.story .content .splide__list {
   scrollbar-width: none; /* Firefox */
 }
 section.story .content .splide__list .splide__slide {
-  position: relative;
-  margin-right: 25px;
+/*   position: relative;
+  margin-right: 25px; */
+  flex: 0 0 auto; /* Ensure slides don't shrink or grow */
+  margin-right: 15px; /* Space between slides */
 }
 section.story .content .splide__list .splide__slide .detail {
   width: 350px;
