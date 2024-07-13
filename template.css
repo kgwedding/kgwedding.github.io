@@ -1969,12 +1969,34 @@ section.story .content .splide__list .splide__slide .detail {
 
 @media (max-width: 600px) {
   section.story .content .splide__list .splide__slide .detail {
-    width: 80vw;
-    height: 80vw;
-    padding: 1rem;
+    width: 80vw; /* Use viewport width */
+    height: 80vw; /* Maintain aspect ratio */
+    padding: 1rem; /* Reduce padding */
+  }
+  
+  section.story .content .splide__list .splide__slide .detail:before,
+  section.story .content .splide__list .splide__slide .detail:after {
+    width: 50px; /* Reduce size */
+    height: 50px; /* Reduce size */
+    background-size: 45px; /* Adjust background size */
+  }
+  
+  section.story .content .splide__list .splide__slide .detail h5 {
+    font-size: 1.5rem; /* Reduce font size */
+  }
+  
+  section.story .content .splide__list .splide__slide .detail p {
+    font-size: 0.875rem; /* Reduce font size */
+  }
+  
+  section.story .content .splide__list.pl {
+    padding-left: 10%; /* Adjust padding */
+  }
+  
+  section.story .content .splide__list.pl .splide__slide:last-child {
+    margin-right: 5%; /* Adjust margin */
   }
 }
-
 
 section.story .content .splide__list .splide__slide .detail:before {
   content: "";
