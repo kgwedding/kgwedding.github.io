@@ -1923,10 +1923,10 @@ section.story .content .list-stories-new::-webkit-scrollbar {
 section.story .content .splide__list {
   display: flex;
   list-style: none;
-  overflow: hidden;
+/*   overflow: hidden; */
   overflow-x: auto;
   overflow-y: hidden;
-  justify-content: center;
+  justify-content: flex-start;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
