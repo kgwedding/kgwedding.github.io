@@ -2453,58 +2453,54 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
     font-size: 3.5rem;
     font-weight: 100;
     text-align: center;
-    margin: 0; /* Ensure no default margin is causing layout issues */
   }
   section.story .content .list-stories {
-    height: auto; /* Allow height to adjust based on content */
-    max-height: 375px; /* Optionally limit height */
-    overflow-y: auto; /* Add scroll if content exceeds height */
+    height: 375px;
   }
   section.story .content .list-stories .item {
     scroll-snap-align: start;
-    width: 100%; /* Full width on smaller screens */
-    max-width: 300px; /* Limit width on larger screens */
-    height: auto; /* Allow height to adjust */
-    max-height: 300px; /* Limit height on larger screens */
-    margin: auto;
+    width: 300px;
+    height: 300px;
+    position: relative;
     color: #738c6d;
     background: #ffffff;
     border-radius: 50%;
     text-align: center;
+    margin: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 20px;
   }
-  section.story .content .list-stories .item:before,
+  section.story .content .list-stories .item:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: -62px;
+    transform: translate(-50%);
+    background: url("assets/img/leaf.png") no-repeat center;
+    background-size: 90px;
+  }
   section.story .content .list-stories .item:after {
     content: "";
     position: absolute;
     width: 100px;
     height: 100px;
+    bottom: -30px;
+    left: 54px;
     transform: translate(-50%);
     background: url("assets/img/leaf.png") no-repeat center;
     background-size: 90px;
-  }
-  section.story .content .list-stories .item:before {
-    top: 2px;
-    right: -62px;
-  }
-  section.story .content .list-stories .item:after {
-    bottom: -30px;
-    left: 54px;
     z-index: -1;
   }
   section.story .content .list-stories .item .detail {
     padding: 10px 20px;
-    width: 100%; /* Full width on smaller screens */
-    max-width: 95%; /* Limit width on larger screens */
+    width: 95%;
   }
   section.story .content .list-stories .item .detail h5 {
     font-size: 2rem;
     font-family: "Dancing Script", cursive;
     font-weight: 100;
-    margin: 10px 0; /* Adjust margins for spacing */
   }
   section.story .content .list-stories .item .detail p {
     font-family: "Noto Sans", sans-serif;
@@ -2513,15 +2509,11 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
   }
   section.story .content .list-stories-new {
     margin: auto;
-    height: auto; /* Allow height to adjust based on content */
-    max-height: 400px; /* Optionally limit height */
-    overflow-y: auto; /* Add scroll if content exceeds height */
+    height: 400px;
   }
   section.story .content .list-stories-new div .item {
-    width: 100%; /* Full width on smaller screens */
-    max-width: 320px; /* Limit width on larger screens */
-    height: auto; /* Allow height to adjust */
-    max-height: 320px; /* Limit height on larger screens */
+    width: 320px;
+    height: 320px;
     margin: auto;
     position: relative;
   }
@@ -2534,25 +2526,32 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
     background: #ffffff;
     border-radius: 50%;
   }
-  section.story .content .list-stories-new div .item .detail:before,
+  section.story .content .list-stories-new div .item .detail:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    left: 22px;
+    transform: translate(-50%);
+    background: url("assets/img/leaf.png") no-repeat center;
+    background-size: 90px;
+    z-index: -1;
+  }
   section.story .content .list-stories-new div .item .detail:after {
     content: "";
     position: absolute;
     width: 100px;
     height: 100px;
+    top: 2px;
+    right: -62px;
     transform: translate(-50%);
     background: url("assets/img/leaf.png") no-repeat center;
     background-size: 90px;
-  }
-  section.story .content .list-stories-new div .item .detail:before {
-    bottom: 0;
-    left: 22px;
-    z-index: -1;
-  }
-  section.story .content .list-stories-new div .item .detail:after {
-    top: 2px;
-    right: -62px;
     z-index: 1;
+  }
+  section.story .content .list-stories-new::-webkit-scrollbar {
+    display: none;
   }
   section.story .content .splide__list {
     display: flex;
@@ -2563,7 +2562,7 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
     padding-left: 10%;
-  }
+  } 
   section.story .content .splide__list .splide__slide {
     position: relative;
     margin-right: 25px;
@@ -2576,24 +2575,28 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
     padding: 2rem;
     text-align: center;
   }
-  section.story .content .splide__list .splide__slide .detail:before,
+  section.story .content .splide__list .splide__slide .detail:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    left: 22px;
+    transform: translate(-50%);
+    background: url("assets/img/leaf.png") no-repeat center;
+    background-size: 90px;
+    z-index: -1;
+  }
   section.story .content .splide__list .splide__slide .detail:after {
     content: "";
     position: absolute;
     width: 100px;
     height: 100px;
+    top: 2px;
+    right: -62px;
     transform: translate(-50%);
     background: url("assets/img/leaf.png") no-repeat center;
     background-size: 90px;
-  }
-  section.story .content .splide__list .splide__slide .detail:before {
-    bottom: 0;
-    left: 22px;
-    z-index: -1;
-  }
-  section.story .content .splide__list .splide__slide .detail:after {
-    top: 2px;
-    right: -62px;
     z-index: 1;
   }
   section.story .content .splide__list .splide__slide .detail .h-100 {
@@ -2623,189 +2626,6 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
   }
 }
 
-
-/* @media (max-width: 1400px) {
-  section.story .content {
-    margin: auto;
-    padding: 70px 0px 50px 0px;
-  }
-  section.story .content h2 {
-    font-family: "Dancing Script", cursive;
-    font-size: 3.5rem;
-    font-weight: 100;
-    text-align: center;
-  }
-  section.story .content .list-stories {
-    height: 375px;
-  } */
-/*   section.story .content .list-stories .item {
-    scroll-snap-align: start;
-    width: 300px;
-    height: 300px;
-    position: relative;
-    color: #738c6d;
-    background: #ffffff;
-    border-radius: 50%;
-    text-align: center;
-    margin: auto;
-    display: flex;
-    align-items: center;
-  }
-  section.story .content .list-stories .item:before {
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    top: 2px;
-    right: -62px;
-    transform: translate(-50%);
-    background: url("assets/img/leaf.png") no-repeat center;
-    background-size: 90px;
-  } */
-/*   section.story .content .list-stories .item:after {
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    bottom: -30px;
-    left: 54px;
-    transform: translate(-50%);
-    background: url("assets/img/leaf.png") no-repeat center;
-    background-size: 90px;
-    z-index: -1;
-  }
-  section.story .content .list-stories .item .detail {
-    padding: 10px 20px;
-    width: 95%;
-  }
-  section.story .content .list-stories .item .detail h5 {
-    font-size: 2rem;
-    font-family: "Dancing Script", cursive;
-    font-weight: 100;
-  } */
-/*   section.story .content .list-stories .item .detail p {
-    font-family: "Noto Sans", sans-serif;
-    font-weight: 100;
-    font-size: 1rem;
-  }
-  section.story .content .list-stories-new {
-    margin: auto;
-    height: 400px;
-  }
-  section.story .content .list-stories-new div .item {
-    width: 320px;
-    height: 320px;
-    margin: auto;
-    position: relative;
-  }
-  section.story .content .list-stories-new div .item .detail {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #ffffff;
-    border-radius: 50%;
-  } */
-/*   section.story .content .list-stories-new div .item .detail:before {
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    bottom: 0;
-    left: 22px;
-    transform: translate(-50%);
-    background: url("assets/img/leaf.png") no-repeat center;
-    background-size: 90px;
-    z-index: -1;
-  } */
-/*   section.story .content .list-stories-new div .item .detail:after {
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    top: 2px;
-    right: -62px;
-    transform: translate(-50%);
-    background: url("assets/img/leaf.png") no-repeat center;
-    background-size: 90px;
-    z-index: 1;
-  } */
-/*   section.story .content .list-stories-new::-webkit-scrollbar {
-    display: none;
-  } */
-/*   section.story .content .splide__list {
-    display: flex;
-    list-style: none;
-    overflow: hidden;
-    overflow-x: auto;
-    justify-content: space-between;
-    -ms-overflow-style: none; /* IE and Edge */
-/*     scrollbar-width: none; /* Firefox */ */
-/*     padding-left: 10%;
-  }  */
-/*   section.story .content .splide__list .splide__slide {
-    position: relative;
-    margin-right: 25px;
-  } */
-/*   section.story .content .splide__list .splide__slide .detail {
-    width: 350px;
-    height: 350px;
-    background: #ffffff;
-    border-radius: 50%;
-    padding: 2rem;
-    text-align: center;
-  } */
-/*   section.story .content .splide__list .splide__slide .detail:before {
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    bottom: 0;
-    left: 22px;
-    transform: translate(-50%);
-    background: url("assets/img/leaf.png") no-repeat center;
-    background-size: 90px;
-    z-index: -1;
-  }
-  section.story .content .splide__list .splide__slide .detail:after {
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    top: 2px;
-    right: -62px;
-    transform: translate(-50%);
-    background: url("assets/img/leaf.png") no-repeat center;
-    background-size: 90px;
-    z-index: 1;
-  } */
-/*   section.story .content .splide__list .splide__slide .detail .h-100 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  section.story .content .splide__list .splide__slide .detail h5 {
-    font-size: 2rem;
-    font-family: "Dancing Script", cursive;
-    font-weight: 100;
-  } */
-/*   section.story .content .splide__list .splide__slide .detail p {
-    font-family: "Noto Sans", sans-serif;
-    font-weight: 100;
-    font-size: 1rem;
-  }
-  section.story .content .splide__list.pl {
-    padding-left: 10%;
-  }
-  section.story .content .splide__list.pl .splide__slide:last-child {
-    margin-right: 10%;
-  }
-  section.story .content .splide__list::-webkit-scrollbar {
-    display: none;
-  } */
-}
 @media (min-width: 320px) and (max-width: 480px) {
   section.story .content .splide__list {
     margin-left: 0 !important;
