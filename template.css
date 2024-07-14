@@ -2699,6 +2699,27 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
     left: 55px;
     transform: scaleX(-1);
   }
+
+  section.story .content .row .col .image-bride .bg-flower {
+    width: 100%;
+    height: calc(100% + 93px);
+    top: -29px;
+    background-size: contain;
+    left: 0;
+  }
+  section.story .content .row .col .image-bride .bg-flower.groom {
+    transform: scaleX(-1);
+  }
+  section.story .content .row .col .flower.bride {
+    right: 55px;
+  }
+  section.story .content .row .col .flower.groom {
+    left: 55px;
+    transform: scaleX(-1);
+  }
+
+
+  
   section.event .content {
     width: 90%;
   }
@@ -2786,6 +2807,11 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
   section.bridegroom .content .row .col .flower.groom {
     left: 50px !important;
   }
+
+  section.story .content .row .col .flower.groom {
+    left: 50px !important;
+  }
+  
 }
 .dot {
   width: 20px;
