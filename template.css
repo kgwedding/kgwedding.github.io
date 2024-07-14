@@ -1913,29 +1913,51 @@ section.story .content .list-stories-new div .item .detail:after {
 section.story .content .list-stories-new::-webkit-scrollbar {
   display: none;
 }
-/* section.story .content .splide__list {
-  display: flex;
-  list-style: none; */
-/*   overflow: hidden; */
-/*   overflow-x: auto;
-  overflow-y: hidden;
-  justify-content: flex-start;
-  -ms-overflow-style: none; /* IE and Edge */
-/*   scrollbar-width: none; /* Firefox */
-/* }
-section.story .content .splide__list .splide__slide {
+
+section.story .content .row .col {
   position: relative;
-  margin-right: 25px;
-  flex: 0 0 auto; /* Ensure slides don't shrink or grow */
-/* } */
-/* section.story .content .splide__list .splide__slide .detail {
-  width: 350px;
-  height: 350px;
-  background: #ffffff;
+}
+section.story .content .row .col .image-bride {
+  position: relative;
+}
+section.story .content .row .col .image-bride .bg-flower {
+  content: "";
+  width: calc(100% + 70px);
+  height: calc(100% + 80px);
+  top: -29px;
+  left: -33px;
+  position: absolute;
+  background: url("assets/img/flower-wreath_transparent.png") no-repeat top;
+  background-size: cover;
+  z-index: -1;
+}
+section.story .content .row .col .image-bride .bg-flower.groom {
+  transform: scaleX(-1);
+}
+section.story .content .row .col .flower {
+  content: "";
+  position: absolute;
+  bottom: -36px;
+  right: 20px;
+  width: 100px;
+  height: 200px;
+  background-size: contain;
+}
+section.story .content .row .col .flower.groom {
+  left: 20px;
+  transform: scaleX(-1);
+}
+section.story .content .row img.bride {
+  width: 225px;
+  height: 225px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
   border-radius: 50%;
-  padding: 2rem;
-  text-align: center;
-} */
+  position: relative;
+}
+
 section.story .content .splide__list {
   display: flex;
   list-style: none;
