@@ -1805,7 +1805,7 @@ section.story {
   background-size: cover, 100px;
   position: relative;
 }
-section.story .content {
+/* section.story .content {
   margin: auto;
   padding: 70px 0 50px 0;
 }
@@ -1814,7 +1814,31 @@ section.story .content h2 {
   font-size: 3.5rem;
   font-weight: 100;
   text-align: center;
+} */
+section.story .content {
+  z-index: 2;
+  max-width: 650px;
+  margin: auto;
+  padding: 60px 0 50px 0;
 }
+section.story .content h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 3.5rem;
+  font-weight: 100;
+}
+/* section.bridegroom .content h4 {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.5rem;
+  font-weight: 100;
+} */
+section.story .content p {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+section.story .content .row .col {
+  position: relative;
+}
+
 section.story .content .list-stories {
   height: 375px;
 }
