@@ -2742,7 +2742,9 @@ section.rsvp .message_guest #message_list::-webkit-scrollbar {
     left: 55px;
     transform: scaleX(-1);
   }
-
+  section.story .content {
+    width: 90%;
+  }
 
   
   section.event .content {
