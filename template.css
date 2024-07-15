@@ -1826,11 +1826,11 @@ section.story .content h2 {
   font-size: 3.5rem;
   font-weight: 100;
 }
-/* section.bridegroom .content h4 {
+section.story .content h4 {
   font-family: "Dancing Script", cursive;
   font-size: 2.5rem;
   font-weight: 100;
-} */
+}
 section.story .content p {
   font-size: 1.1rem;
   font-weight: 300;
