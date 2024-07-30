@@ -2302,7 +2302,8 @@ section.rsvp .message_guest {
   font-family: "Noto Sans", sans-serif;
 }
 section.rsvp .message_guest p {
-  font-family: "Dancing Script", cursive;
+/*   font-family: "Dancing Script", cursive; */
+  font-family: "Noto Sans", cursive;
   font-size: 2rem;
   color: #ffffff;
 }
