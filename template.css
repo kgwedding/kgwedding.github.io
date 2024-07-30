@@ -2168,12 +2168,14 @@ section.rsvp {
   background: url("assets/img/trees-fireflies.webp"), rgba(93, 112, 139, 0.73) center;
   background-size: contain;
   min-height: 650px;
-  font-family: "Dancing Script", cursive;
+/*   font-family: "Dancing Script", cursive; */
+  font-family: "Noto Sans", sans-serif;
 }
 section.rsvp .content {
   margin: auto;
   padding: 100px 0 100px 0;
   max-width: 600px;
+  background: rgba(255, 255, 255, 0.25); /* background white? */
 }
 section.rsvp .content h2 {
   font-family: "Dancing Script", cursive;
@@ -2303,7 +2305,7 @@ section.rsvp .message_guest {
 }
 section.rsvp .message_guest p {
 /*   font-family: "Dancing Script", cursive; */
-  font-family: "Noto Sans", cursive;
+  font-family: "Noto Sans", sans-serif;
   font-size: 2rem;
   color: #ffffff;
 }
