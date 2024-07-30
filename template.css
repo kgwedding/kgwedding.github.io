@@ -2167,7 +2167,7 @@ section.galery .top-right {
 section.rsvp {
   background: url("assets/img/trees-fireflies.webp"), rgba(93, 112, 139, 0.73) center;
   background-size: contain;
-  min-height: 650px;
+/*   min-height: 650px; */
 /*   font-family: "Dancing Script", cursive; */
   font-family: "Noto Sans", sans-serif;
 }
