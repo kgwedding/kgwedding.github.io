@@ -2175,14 +2175,14 @@ section.rsvp .content {
   margin: auto;
   padding: 100px 0 100px 0;
   max-width: 600px;
-  background: rgba(255, 255, 255, 0.25); /* background white? */
+  background: rgba(255, 255, 255, 1); /* background white? */
 }
 section.rsvp .content h2 {
   font-family: "Dancing Script", cursive;
   font-size: 3.5rem;
   font-weight: 100;
   text-align: center;
-  color: #ffffff;
+  color: #41543d;
 }
 section.rsvp .content .form_message {
   color: #ffffff;
